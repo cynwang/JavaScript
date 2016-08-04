@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery实现点击小图弹出大图 - 源码之家</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+body img {
+	width: 300px;
+	height: 200px;
+}
+</style>
+</head>
+<body>
+<div class="" style="width:960px; margin:0 auto">
+	<h1>jQuery bigic Plugin Demo</h1>
+	<img class="test" src="photo/1.jpg" alt="">
+	<img class="test" src="photo/2.jpg" alt="">
+	<img class="test" src="photo/3.jpg" alt="">
+</div>
+<script src="js/jquery-1.11.0.min.js"></script> 
+<script src="js/jquey-bigic.js"></script> 
+<script>
+	$(function(){
+		$('img').bigic();
+	});
+</script> 
+<div style="text-align:center;">
+	<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
+</body>
+</html>
